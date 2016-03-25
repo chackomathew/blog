@@ -1,0 +1,24 @@
+= First Blog Post Using AsciiDoc in HubPress
+
+I'd be following http://asciidoctor.org/docs/asciidoc-writers-guide/#writing-in-asciidoc to get started with AsciiDoc. Its similar to Markdown, which should help this journey.
+
+//Start
+
+This line,
+and this line are seperate lines! That's my first learning: AsciiDoc combines adjacent lines. So two preserve line breaks, use plus sign(+) or hardbreaks attribute(which have two variants: [%hardbreaks] and :hardbreaks: the later sets line break preserve for the entire doc,which i can't show here). See the examples below.
+
+Using plus(+) +
+This line, +
+and this line are seperate lines!
+
+Voila! Line Breaks!
+
+Using hardbreaks
+[%hardbreaks]
+This line,
+and this line are seperate lines!
+[hardbreaks]
+
+So using hardsbreaks attribute, you should put [%hardbreaks] in the line before (and in seperate line) you need to preserve line breaks and put [hardbreaks] where you need to end the behaviour.
+
+
