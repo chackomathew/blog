@@ -5,7 +5,7 @@ I'd be following http://asciidoctor.org/docs/asciidoc-writers-guide/#writing-in-
 //Start
 
 This line,
-and this line are seperate lines! That's my first learning: AsciiDoc combines adjacent lines. So two preserve line breaks, use plus sign(+) or hardbreaks attribute(which have two variants: [%hardbreaks] and :hardbreaks: the later sets line break preserve for the entire doc,which i can't show here). See the examples below.
+and this line are seperate lines! That's my first learning: AsciiDoc combines adjacent lines. So to preserve line breaks, use plus sign(+) or hardbreaks attribute(which have two variants: [%hardbreaks] and :hardbreaks: the later sets line break preserve for the entire doc,which i can't show here). See the examples below.
 
 Using plus(+) +
 This line, +
