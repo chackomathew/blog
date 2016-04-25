@@ -1,1 +1,9 @@
 = TCP/IP Networking Fundamentals Notes
+
+https://app.pluralsight.com/library/courses/tcpip-networking-it-pros/table-of-contents
+
+*Covers basics of TCP/IP, networking, protocols, configuring IP addresses, binary numbers, CIDR and IPv6.*
+
+Protocol 
+-set of rules and procedures for communication, i.e. just like sending out a letter or shipping using fedex (which includes getting an envelope, writing to/from addresses, sticking a postal stamp(pay for shipment) and putting in mailboxes(arranging a pickup))
+-OSI (Open Systems Interconnection) - by ISO and provides basic standards of communication (Pneumatics - All People Seem To Need Data Processing, Please Do Not Throw Sausage Pizza Away, All People Should Try New Diet Pepsi etc.)
