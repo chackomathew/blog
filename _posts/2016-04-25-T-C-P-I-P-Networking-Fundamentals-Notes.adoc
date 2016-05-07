@@ -6,4 +6,15 @@ https://app.pluralsight.com/library/courses/tcpip-networking-it-pros/table-of-co
 
 Protocol 
 -set of rules and procedures for communication, i.e. just like sending out a letter or shipping using fedex (which includes getting an envelope, writing to/from addresses, sticking a postal stamp(pay for shipment) and putting in mailboxes(arranging a pickup))
--OSI (Open Systems Interconnection) - by ISO and provides basic standards of communication (Pneumatics - All People Seem To Need Data Processing, Please Do Not Throw Sausage Pizza Away, All People Should Try New Diet Pepsi etc.)
+-OSI (Open Systems Interconnection) - by ISO and provides basic standards of communication (7 Layers - Pneumatics - All People Seem To Need Data Processing, Please Do Not Throw Sausage Pizza Away, All People Should Try New Diet Pepsi etc.)
+
+<insert picture here>
+Application - Network API's (Gateway)
+Presentation - Formatting 
+Session - Synchronization
+Transport - Packet Management - splits data into small chunks or packet
+Network - Addressing/Routing (Router)
+Data Link - Data Frames - put the packet into - adds a header and trailer(for error checking) (Bridge/Switch)
+Physical - Hardware (Hub/Repeater)
+
+all layers in the sending side add header information to the data and corresponding layer in the receiving side acknowledges and strips off the header, so at the application layer in receiving side we have the raw data.
