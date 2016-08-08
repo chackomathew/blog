@@ -1,1 +1,14 @@
 = Learn/Teach/Repeat
+
+Presentation content in *_bold italics_* and learnings in `monospace`
+
+Intro
+JDBC is an api which defines how client may access the database. Provides methods to query, update data in database.It uses JDBC drivers to connect with the database. Current version 4.2 MR release in Java 1.8.
+
+`api: application program interface is code that allows two applications to communicate with each other. It tells developers how to make requests/calls to OS/other applications. Typically APIs are released for third-party developement as part of SDKs`
+
+The JDBC classes are contained in the Java package, java.sql and javax.sql
+
+Architecture
+JDBC API - Program to JDBC Manager connenction - which we'll be using to code
+JDBC Driver API - JDBC Manager to driver connection - specific for database vendors like Oracle, MySql etc
