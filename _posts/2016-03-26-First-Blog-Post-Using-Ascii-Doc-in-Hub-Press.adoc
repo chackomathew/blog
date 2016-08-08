@@ -19,12 +19,12 @@ This line,
 and this line are seperate lines!
 [hardbreaks]
 
-So using hardsbreaks attribute, you should put [%hardbreaks] in the line before (and in seperate line) you need to preserve line breaks and put [hardbreaks] where you need to end the behaviour.
+So using hardbreaks attribute, you should put [%hardbreaks] in the line before (and in seperate line) you need to preserve line breaks and put [hardbreaks] where you need to end the behaviour.
 
 
 Admonitions http://asciidoctor.org/docs/asciidoc-writers-guide/#admonitions
 
-NOTE: harbreaks attribute seems to be adding a seperate break line by itself. + sign should be put after a space.
+NOTE: hardbreaks attribute seems to be adding a seperate break line by itself. + sign should be put after a space.
 
 Quoted text +
 bold: * * enclose phrase/letter in *_asteriks_*: *bold* +
