@@ -2,6 +2,7 @@
 
 Presentation content in *_bold italics_* and learnings in `monospace`
 
+= JDBC
 Intro
 JDBC is an api which defines how client may access the database. Provides methods to query, update data in database.It uses JDBC drivers to connect with the database. Current version 4.2 MR release in Java 1.8.
 
@@ -12,3 +13,21 @@ The JDBC classes are contained in the Java package, java.sql and javax.sql
 Architecture
 JDBC API - Program to JDBC Manager connenction - which we'll be using to code
 JDBC Driver API - JDBC Manager to driver connection - specific for database vendors like Oracle, MySql etc
+
+= AWS
+Elastic Computing - avoid overprovisioning and scale up for the needs
+
+Global Infrastructure
+region - geographical area us-east, es-west
+availability zone - data center, within a particular region
+edge locations - doesn't have aws resources, but have some services eg: dns, cloudfront
+
+Shared Security Responsibility
+AWS responsibility - host, storage, network, datacenter security
+Our Reponsibility - AWS account security
+
+Identity and Access Managament IAM
+-user and service management
+-control access to AWS resources
+-MFA
+API access
