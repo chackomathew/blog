@@ -14,6 +14,11 @@ Architecture
 JDBC API - Program to JDBC Manager connenction - which we'll be using to code
 JDBC Driver API - JDBC Manager to driver connection - specific for database vendors like Oracle, MySql etc
 
+JDBC Driver - implements JDBC interfaces (comes with standard Java) targetting a particular database
+*JDBC-ODBC Bridge driver
+*Native Api driver
+*Network protocol driver
+
 = AWS
 Elastic Computing - avoid overprovisioning and scale up for the needs
 
