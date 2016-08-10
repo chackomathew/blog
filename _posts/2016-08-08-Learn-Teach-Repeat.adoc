@@ -31,6 +31,19 @@ Shared Security Responsibility
 AWS responsibility - host, storage, network, datacenter security
 Our Reponsibility - AWS account security
 
+Ephemeral Storage
+-instance store
+-temporary block-level storage hosted on the same server as EC2
+-free
+-data lost when instance stopped or terminated
+
+S3
+-internet accessible
+-unlimited bucket size
+-upto 5TB object size
+-price for storage used and transfer out
+-not a file system
+
 Identity and Access Managament IAM
 -user and service management
 -control access to AWS resources
@@ -46,7 +59,25 @@ Elastic Compute Cloud EC2
 -https://aws.amazon.com/ec2/pricing/ On-demand instances - pay per hour for the compute capacity used
 -Reserved Instances less expensive, but needs commitment(1 or 3 year)
 
+VPC
+-logically isolated network in AWS. to isolate from other tenants.
+-ingress and egress(inbound and outbound)
+-vpc peering - internetwork w/ other vpc
+-elastic ip
+-enable hybrid cloud(site to site vpn)
+-free
+-vpn - 0.05/hr
+-additional networking layer between AWS resources and infrastructure
+-Access - Gateway(Internet Gateway,CG) or VPN(Direct Connect, Hardware VPN)
+
+VPC Peering
+-connect to other vpc network within same region
+-ip address scheme should not overlap
+-no transitive peering
+
+Access Control List
+
 Security Groups
--host based firewall for all IaaS AWS components such as EC2, ELB, etc. 
--You can add rules to control inbound traffic to instances and seperate rules to controll outbound traffic. Rules are used to allow not deny, so by default all inbound traffic is denied and all outbound traffic is allowed. 
+-resource level traffic firewall for all IaaS AWS components such as EC2, ELB, etc. 
+-ingress and egress. You can add rules to control inbound traffic to instances and seperate rules to controll outbound traffic. Rules are used to allow not deny, so by default all inbound traffic is denied and all outbound traffic is allowed. 
 -vpc comes with a default security group. sec grp not mentioned = def sec grp
