@@ -43,6 +43,13 @@ S3
 -upto 5TB object size
 -price for storage used and transfer out
 -not a file system
+99.99% SLA - uptime
+Standard Storage 99.99999999% durability(say u have 10k objects, u'll lose 1 object in 1 million years :):D)
+-replicated mutliple times in the same availability zone and then replicated across availability zone in the region. sustain upto two availability zones failures
+Reduced Redundancy Storage
+-99.99% 10k, 1 will fail per year
+-cheaper
+
 
 Identity and Access Managament IAM
 -user and service management
