@@ -31,3 +31,10 @@ Identity and Access Managament IAM
 -control access to AWS resources
 -MFA
 API access
+
+Elastic Compute Cloud EC2
+-scalable plaforms for VMs
+-windows/linux instances
+-based of AMI Amazon Machine Image - template/configuration to deploy a VM
+-ECU - measure the CPU usage. 1ECU - 1.2GHz 2007 Intel Opteron or 2007 Xeon. moved to vCPU
+-instance types based on workload - micro instances, general purpose, compute optimized, GPU instances, memory optimized, storage optimized
