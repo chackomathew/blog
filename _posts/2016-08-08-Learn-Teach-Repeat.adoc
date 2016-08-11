@@ -67,7 +67,12 @@ JDBC Driver - implements JDBC interfaces (comes with standard Java) targetting a
 - https://aws.amazon.com/ec2/pricing/ On-demand instances - pay per hour for the compute capacity used
 - Reserved Instances less expensive, but needs commitment(1 or 3 year)
 
-.*Elastic Block Store*
+.*Elastic Block Storage*
+- not internet accessible. supporting service to EC2
+- persistent file system for EC2
+- incremental snapshot
+- leverages S3 for snapshot storage (private area in S3)
+- provisioned IOPS (input output operations per second)
 
 
 .*VPC*
