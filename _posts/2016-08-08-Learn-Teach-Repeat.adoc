@@ -20,35 +20,36 @@ JDBC Driver - implements JDBC interfaces (comes with standard Java) targetting a
 *Network protocol driver
 
 = AWS
-Elastic Computing - avoid overprovisioning and scale up for the needs
+.Elastic Computing 
+- avoid overprovisioning and scale up for the needs
 
-Global Infrastructure
-region - geographical area us-east, es-west
-availability zone - data center, within a particular region
-edge locations - doesn't have aws resources, but have some services eg: dns, cloudfront
+.Global Infrastructure
+* region - geographical area us-east, es-west
+* availability zone - data center, within a particular region
+* edge locations - doesn't have aws resources, but have some services eg: dns, cloudfront
 
-Shared Security Responsibility
-AWS responsibility - host, storage, network, datacenter security
-Our Reponsibility - AWS account security
+.Shared Security Responsibility
+* AWS responsibility - host, storage, network, datacenter security
+* Our Reponsibility - AWS account security
 
-Ephemeral Storage
--instance store
--temporary block-level storage hosted on the same server as EC2
--free
--data lost when instance stopped or terminated
+.Ephemeral Storage
+- instance store
+- temporary block-level storage hosted on the same server as EC2
+- free
+- data lost when instance stopped or terminated
 
-S3
--internet accessible
--unlimited bucket size
--upto 5TB object size
--price for storage used and transfer out
--not a file system
-99.99% SLA - uptime
-Standard Storage 99.99999999% durability(say u have 10k objects, u'll lose 1 object in 1 million years :):D)
--replicated mutliple times in the same availability zone and then replicated across availability zone in the region. sustain upto two availability zones failures
-Reduced Redundancy Storage
--99.99% 10k, 1 will fail per year
--cheaper
+.S3
+- internet accessible
+- unlimited bucket size
+- upto 5TB object size
+- price for storage used and transfer out
+- not a file system
+* 99.99% SLA - uptime
+.Standard Storage 99.99999999% durability(say u have 10k objects, u'll lose 1 object in 1 million years :):D)
+- replicated mutliple times in the same availability zone and then replicated across availability zone in the region. sustain upto two availability zones failures
+.Reduced Redundancy Storage
+- 99.99% 10k, 1 will fail per year
+- cheaper
 
 
 .Identity and Access Managament IAM
