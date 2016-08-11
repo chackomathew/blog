@@ -51,31 +51,34 @@ Reduced Redundancy Storage
 -cheaper
 
 
-Identity and Access Managament IAM
--user and service management
--control access to AWS resources
--MFA
-API access
+.Identity and Access Managament IAM
+- user and service management
+- control access to AWS resources
+- MFA
+- API access
 
-Elastic Compute Cloud EC2
--scalable plaforms for VMs
--windows/linux instances
--based of AMI Amazon Machine Image - template/configuration to deploy a VM
--ECU - measure the CPU usage. 1ECU - 1.2GHz 2007 Intel Opteron or 2007 Xeon. AWS moved to vCPU (share of the physical CPU assigned to a VM)
--https://aws.amazon.com/ec2/instance-types/ instance types based on workload - general purpose, compute optimized, memory optimized, storage optimized, GPU instances
--https://aws.amazon.com/ec2/pricing/ On-demand instances - pay per hour for the compute capacity used
--Reserved Instances less expensive, but needs commitment(1 or 3 year)
+.Elastic Compute Cloud EC2
+- scalable plaforms for VMs
+- windows/linux instances
+- based of AMI Amazon Machine Image - template/configuration to deploy a VM
+- ECU - measure the CPU usage. 1ECU - 1.2GHz 2007 Intel Opteron or 2007 Xeon. AWS moved to vCPU (share of the physical CPU assigned to a VM)
+- https://aws.amazon.com/ec2/instance-types/ instance types based on workload - general purpose, compute optimized, memory optimized, storage optimized, GPU instances
+- https://aws.amazon.com/ec2/pricing/ On-demand instances - pay per hour for the compute capacity used
+- Reserved Instances less expensive, but needs commitment(1 or 3 year)
 
-VPC
--logically isolated network in AWS. to isolate from other tenants.
--ingress and egress(inbound and outbound)
--vpc peering - internetwork w/ other vpc
--elastic ip
--enable hybrid cloud(site to site vpn)
--free
--vpn - 0.05/hr
--additional networking layer between AWS resources and infrastructure
--Access - Gateway(Internet Gateway,CG) or VPN(Direct Connect, Hardware VPN)
+.Elastic Block Store
+
+
+.VPC
+- logically isolated network in AWS. to isolate from other tenants.
+- ingress and egress(inbound and outbound)
+- vpc peering - internetwork w/ other vpc
+- elastic ip
+- enable hybrid cloud(site to site vpn)
+- free
+- vpn - 0.05/hr
+- additional networking layer between AWS resources and infrastructure
+- Access - Gateway(Internet Gateway,CG) or VPN(Direct Connect, Hardware VPN)
 
 VPC Peering
 -connect to other vpc network within same region
