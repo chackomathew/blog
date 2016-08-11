@@ -93,7 +93,7 @@ VPC Peering
 
 Access Control List
 
-Security Groups
--resource level traffic firewall for all IaaS AWS components such as EC2, ELB, etc. 
--ingress and egress. You can add rules to control inbound traffic to instances and seperate rules to controll outbound traffic. Rules are used to allow not deny, so by default all inbound traffic is denied and all outbound traffic is allowed. 
--vpc comes with a default security group. sec grp not mentioned = def sec grp
+.Security Groups
+- resource level traffic firewall for all IaaS AWS components such as EC2, ELB, etc. 
+- ingress and egress. You can add rules to control inbound traffic to instances and seperate rules to controll outbound traffic. Rules are used to allow not deny, so by default all inbound traffic is denied and all outbound traffic is allowed. 
+- vpc comes with a default security group. sec grp not mentioned = def sec grp
