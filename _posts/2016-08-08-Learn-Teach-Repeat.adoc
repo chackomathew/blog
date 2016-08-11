@@ -20,7 +20,7 @@ JDBC Driver - implements JDBC interfaces (comes with standard Java) targetting a
 *Network protocol driver
 
 = AWS
-.Elastic Computing 
+.*Elastic Computing*
 - avoid overprovisioning and scale up for the needs
 
 .Global Infrastructure
