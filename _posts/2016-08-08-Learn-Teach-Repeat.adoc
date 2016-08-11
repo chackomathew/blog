@@ -23,42 +23,42 @@ JDBC Driver - implements JDBC interfaces (comes with standard Java) targetting a
 .*Elastic Computing*
 - avoid overprovisioning and scale up for the needs
 
-.Global Infrastructure
+.*Global Infrastructure*
 * region - geographical area us-east, es-west
 * availability zone - data center, within a particular region
 * edge locations - doesn't have aws resources, but have some services eg: dns, cloudfront
 
-.Shared Security Responsibility
+.*Shared Security Responsibility*
 * AWS responsibility - host, storage, network, datacenter security
 * Our Reponsibility - AWS account security
 
-.Ephemeral Storage
+.*Ephemeral Storage*
 - instance store
 - temporary block-level storage hosted on the same server as EC2
 - free
 - data lost when instance stopped or terminated
 
-.S3
+.*S3*
 - internet accessible
 - unlimited bucket size
 - upto 5TB object size
 - price for storage used and transfer out
 - not a file system
 * 99.99% SLA - uptime
-.Standard Storage 99.99999999% durability(say u have 10k objects, u'll lose 1 object in 1 million years :):D)
+.*Standard Storage* 99.99999999% durability(say u have 10k objects, u'll lose 1 object in 1 million years :):D)
 - replicated mutliple times in the same availability zone and then replicated across availability zone in the region. sustain upto two availability zones failures
-.Reduced Redundancy Storage
+.*Reduced Redundancy Storage*
 - 99.99% 10k, 1 will fail per year
 - cheaper
 
 
-.Identity and Access Managament IAM
+.*Identity and Access Managament IAM*
 - user and service management
 - control access to AWS resources
 - MFA
 - API access
 
-.Elastic Compute Cloud EC2
+.*Elastic Compute Cloud EC2*
 - scalable plaforms for VMs
 - windows/linux instances
 - based of AMI Amazon Machine Image - template/configuration to deploy a VM
@@ -67,10 +67,10 @@ JDBC Driver - implements JDBC interfaces (comes with standard Java) targetting a
 - https://aws.amazon.com/ec2/pricing/ On-demand instances - pay per hour for the compute capacity used
 - Reserved Instances less expensive, but needs commitment(1 or 3 year)
 
-.Elastic Block Store
+.*Elastic Block Store*
 
 
-.VPC
+.*VPC*
 - logically isolated network in AWS. to isolate from other tenants.
 - ingress and egress(inbound and outbound)
 - vpc peering - internetwork w/ other vpc
