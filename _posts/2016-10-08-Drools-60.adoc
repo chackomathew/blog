@@ -1,0 +1,12 @@
+= Drools 6.0
+
+Declarative Approach
+-business rules are based on a programming paradigm called Declarative programming, this paradigm sustains that you can express the logic of the program without having to explicitly describe the flow of instructions to be followed.
+-This means that you don't specify the order of rules to be executed, but the conditions in the rule decide which action to be taken.So you can write any number of rules without having to worry about any specific place where you need to write the rules.
+
+What's imperative programming
+-type of programming used by Java, C# etc,where we explicitly specify when each code instructions should be executed.
+-declarative programming doesn't allow the developer a direct control over the sequence flow
+
+Decision tree?
+
