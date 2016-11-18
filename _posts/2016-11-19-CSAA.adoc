@@ -1,0 +1,31 @@
+= CSAA
+1. Concepts & Components
+-AWS Global Infrastructure
+	-Networking
+    	-Compute
+        -Storage
+        -Database
+        	-Analytics
+            -Security &Identity
+            -Management Tools
+            	-Application Services
+                -Developer Tools
+                -Mobile Services
+                	-Enterprise Applications
+                    -Internet of Things
+                    
+ AWS GI
+ 	Region - geographical area(contains 2 or more AZ)
+    Availability Zones - Data center
+    Edge Locations - CDN Endpoints for Cloudfront - 50 edge locations
+    
+ Networking
+	VPC - Virtual Private Cloud - virtual datacenter exists within your AWS account, completely isolate and seperate set of resources. 
+    Direct Connect - fiber to AWS
+    Route 53 - Amazon DNS server. 53 is port used by DNS Server
+ 
+ Compute
+	EC2 - virtual server
+    ECS - EC2 Container Service - running docker on EC2 - container management service on cluster of EC2 servers
+    Elastic Beanstalk - deploying and scaling webapps - java,dotnet, php etc
+    Lambda - run code w/o provisioning servers/EC2, pay only when your code run
