@@ -1,0 +1,6 @@
+= AWS ECS
+
+Docker - modified file systems sharing OS kernel of their physical host. not standalone virtual machines. lightweight - less space and system memory. linux based technology - require linux kernel
+Hypervisors - hosting environment for multiple complete self contained virtual computers
+Type 1 Hypervisors - installed as physical hosts OS
+Type 2 Hypervisors - run on top of host OS
